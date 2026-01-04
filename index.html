@@ -5,30 +5,54 @@
 
 <style>
 body {
-    font-family: Arial;
+    font-family: "Segoe UI", Arial, sans-serif;
     background: #f4f6f9;
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 a {
     text-decoration: none;
 }
 
+.header {
+    background: #0b5ed7;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
 .group {
     background: white;
-    padding: 30px;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 10px;
+    padding: 40px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    color: #0b5ed7;
+    transition: transform 0.2s;
+}
+
+.group:hover {
+    transform: scale(1.03);
 }
 </style>
 </head>
 
 <body>
 
-<h1 style="text-align:center;">MediTech Solutions</h1>
+<div class="header">
+    <h1>MediTech Solutions</h1>
+    <p style="font-size:20px;">
+        Building smarter, faster, and more inclusive hospital technology
+    </p>
+</div>
 
 <a href="mediform.html">
     <div class="group">MediForm Pro</div>
